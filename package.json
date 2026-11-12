@@ -1,0 +1,20 @@
+{
+  "name": "cert-mvp",
+  "version": "1.0.0",
+  "description": "PR6 MVP: Education + Cybersecurity certificate registry",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "hardhat run scripts/run.js",
+    "compile": "hardhat compile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "ethers": "^6.13.4",
+    "hardhat": "^2.22.17"
+  }
+}

@@ -1,0 +1,51 @@
+Downloading compiler 0.8.24
+Compiled 1 Solidity file successfully (evm target: paris).
+
+=== DEPLOY ===
+Contract: 0x5FbDB2315678afecb367f032d93F642f64180aa3 | issuer(Module B): 0x70997970C51812dc3A010C7d01b50e0d17dc79C8
+
+=== DEMO: A -> B -> blockchain -> A ===
+Module A request : {"opId":"0c3a9502-9294-45c6-a264-d74c904b34c9","certId":"CERT-3E755691","hash":"0xd277de561175e2e1afeb165702acf11189c753bf1fd04f75bc17e98b2e1b47dd"}
+Module B result  : {"opId":"0c3a9502-9294-45c6-a264-d74c904b34c9","certId":"CERT-3E755691","status":"ANCHORED","txHash":"0x3c6414a2bc3e1884192dc9ff2bf7a312452b5a8f9f75a421b9b934b47c9614cb","block":3,"gas":"117693"}
+On-chain state   : {
+  status: 1,
+  hash: '0xd277de561175e2e1afeb165702acf11189c753bf1fd04f75bc17e98b2e1b47dd'
+}
+verify() on chain: true
+Module A status  : ISSUED
+Trace by opId    :
+   A:EDU CERT_CREATED
+   B:SEC RECEIVED
+   B:SEC TX_CONFIRMED
+   A:EDU STATUS_UPDATED
+
+=== ACCEPTANCE TESTS ===
+AT-1 PASS | Успешный сквозной процесс | ANCHORED, verify=true, A=ISSUED
+AT-2 PASS | Недопустимые полномочия | REJECTED/UNAUTHORIZED_ISSUER; chain: revert NOT_ISSUER
+AT-3 PASS | Дублирование сообщения | duplicate=true, новых блоков=0, chain: revert DUP_OP
+AT-4 PASS | Отказ модуля Б | PENDING, outbox=PENDING, chain status=0
+AT-5 PASS | Несоответствие данных | REJECTED/HASH_MISMATCH; reconcile mismatches=1
+AT-6 PASS | Восстановление после сбоя | ANCHORED, ANCHORED(recovered); mismatches=0
+
+=== LOAD: 30 runs ===
+{
+  runs: 30,
+  success: 30,
+  successRate: '100.0%',
+  mismatches: 0,
+  p50_ms: '4.39',
+  p95_ms: '6.24',
+  min_ms: '3.63',
+  max_ms: '7.89'
+}
+
+=== MONITORING SUMMARY ===
+events: 159 | alerts: {
+  UNAUTHORIZED_ISSUER: 1,
+  DUPLICATE_MESSAGE: 1,
+  HASH_MISMATCH: 1,
+  STATUS_MISMATCH: 1
+}
+last block: 39
+
+Results saved to results/results.json, logs/events.jsonl, logs/outbox.json

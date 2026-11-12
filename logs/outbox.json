@@ -1,0 +1,705 @@
+[
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "0c3a9502-9294-45c6-a264-d74c904b34c9",
+   "certId": "CERT-3E755691",
+   "payload": {
+    "certId": "CERT-3E755691",
+    "student": "Иванов И.",
+    "course": "Blockchain Security",
+    "grade": 80,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0xd277de561175e2e1afeb165702acf11189c753bf1fd04f75bc17e98b2e1b47dd",
+   "ts": 1794480857572,
+   "sig": "559110f2295dce48b3b58db82414228e615c2cc2c25d4846fc34533d4657efd8"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "c3162796-d746-4527-b653-6df78a6cfb52",
+   "certId": "CERT-74D7BDCA",
+   "payload": {
+    "certId": "CERT-74D7BDCA",
+    "student": "Петрова А.",
+    "course": "Blockchain Security",
+    "grade": 81,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0x66b788008693f7cc6c2cf5e699575071f7822ac89513b4da2ef17ad54aa3284b",
+   "ts": 1794480857581,
+   "sig": "3f6b782cb7001f27f400437a612bbfeb9d09b7a274fabb0e8c4293a018b2a558"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "b3d4ca29-b4bb-4a22-82db-74f343a35b79",
+   "certId": "CERT-B5896A88",
+   "payload": {
+    "certId": "CERT-B5896A88",
+    "student": "Ким Д.",
+    "course": "Blockchain Security",
+    "grade": 82,
+    "issuedBy": "dept.unknown"
+   },
+   "hash": "0xd09e3112ea5611908b734c4a2f6dbfdcdea79f6417414b6d855ea3fc395fca9d",
+   "ts": 1794480857587,
+   "sig": "50c3975220ca8f9dabba11cd51ec21f153e7fb3dc39650f784ae83317d1d1fd6"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "2ec6f98a-c297-4e18-8d20-07cacc89e7e5",
+   "certId": "CERT-A82EB46D",
+   "payload": {
+    "certId": "CERT-A82EB46D",
+    "student": "Ахметов Б.",
+    "course": "Blockchain Security",
+    "grade": 83,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0xd91433ed83d84655581de3df050067428ea1f1fb4b93537f06395d8e7bba8b15",
+   "ts": 1794480857600,
+   "sig": "5e3f4fabc0bbc02d05d86bb17bfd8c0afe3146dc7e7e20530f2609ac8189a12a"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "71a995a5-0b8a-442b-b01a-74c4b7038c96",
+   "certId": "CERT-10A54E0C",
+   "payload": {
+    "certId": "CERT-10A54E0C",
+    "student": "Смирнова Е.",
+    "course": "Blockchain Security",
+    "grade": 84,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0x8aab8b9b4070b162200bbf7354b07c37f94399ba927801f6e2bf3aefad58aff1",
+   "ts": 1794480857608,
+   "sig": "5d2e9c48b69b0afb5ff0f73ca2a34d1d68b871edb77c00476541acd68d80fe3e"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "86994ad2-bee3-436f-ac07-278510f318ad",
+   "certId": "CERT-7A64DA0B",
+   "payload": {
+    "certId": "CERT-7A64DA0B",
+    "student": "Иванов И.",
+    "course": "Blockchain Security",
+    "grade": 100,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0xfa6bece80df4e7ea9bbbc0af992066200cf3ec3f3bf8aa8328362d79e18f0113",
+   "ts": 1794480857610,
+   "sig": "8c68bb49920f1702397c06938814a30f26b8c7f085a2821390ddbeeb9373ccf3"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "418d39e1-7d8d-41a0-8f65-695b2e7b5c2c",
+   "certId": "CERT-05500110",
+   "payload": {
+    "certId": "CERT-05500110",
+    "student": "Ким Д.",
+    "course": "Blockchain Security",
+    "grade": 87,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0x17f02614013a231fad096d9ffc0096a78caa9d1ab08c5675b55efc2ef29c59f9",
+   "ts": 1794480857620,
+   "sig": "5c9cb42528bed24f5d66c0af86d2a70c814928fe45e55c5faa743f54bab370f0"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "3e6835de-b3e6-4dd6-b1f4-2fb9ec12a667",
+   "certId": "CERT-9432B51D",
+   "payload": {
+    "certId": "CERT-9432B51D",
+    "student": "Иванов И.",
+    "course": "Blockchain Security",
+    "grade": 80,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0xce57ac1d6e6103fcc839f9408383e48ca7e5bebd9cf9641a91cfe723c96718e8",
+   "ts": 1794480857627,
+   "sig": "acb10cd6e0fac445049b939ad0c8a06e23a7b32953b402a7802bfa37c1e1386f"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "5f751c3a-837b-4adf-8bbc-d1c4ab52d66e",
+   "certId": "CERT-A0AAD5AA",
+   "payload": {
+    "certId": "CERT-A0AAD5AA",
+    "student": "Петрова А.",
+    "course": "Blockchain Security",
+    "grade": 81,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0x530f23bf603a0da8fe6d6e869f2638853e428606e9a69b4e7b536f52a489f2a2",
+   "ts": 1794480857632,
+   "sig": "9bc306d014ed13df50d6021e912fda4ff74ea98393d75c7851c3c2ec75b6196b"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "f0aecd8a-3db7-4f47-bcf4-445a567c94ba",
+   "certId": "CERT-EA8E7F92",
+   "payload": {
+    "certId": "CERT-EA8E7F92",
+    "student": "Ким Д.",
+    "course": "Blockchain Security",
+    "grade": 82,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0xb3d67584a98d6ff2b9c08daa1bc49071f33e961b7da7271cdd457a2c7dfff6a9",
+   "ts": 1794480857637,
+   "sig": "d1719be733e1a8ad86a7a4ce9a2509efd51c25b24b6c6f6569a840ed25f49b0c"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "828bb0d3-d95e-4738-9f74-d6a5b5ae477f",
+   "certId": "CERT-DE9E4276",
+   "payload": {
+    "certId": "CERT-DE9E4276",
+    "student": "Ахметов Б.",
+    "course": "Blockchain Security",
+    "grade": 83,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0x5f2a7ff5c3a1c46c90ece58c5d0e92f8f7f9c71863e1f54a804342c33c657fd3",
+   "ts": 1794480857642,
+   "sig": "b153808de2e2ebdece1268a457239506edc6cf9714d6a7ccb46620eab7972564"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "49fab801-d442-4b45-8831-5e64ec0106de",
+   "certId": "CERT-1EE5B8DA",
+   "payload": {
+    "certId": "CERT-1EE5B8DA",
+    "student": "Смирнова Е.",
+    "course": "Blockchain Security",
+    "grade": 84,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0x105437210be84053df27e0f89baab93c5cfeec6a395bc175559b29bb57d85be0",
+   "ts": 1794480857646,
+   "sig": "35ee61a968bc8b6f9fd423f5f508dc999b5d69457b3935fa364898b9b6c480e0"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "29be0106-6b69-4e06-a72a-67754ab41032",
+   "certId": "CERT-C5DFA2B8",
+   "payload": {
+    "certId": "CERT-C5DFA2B8",
+    "student": "Иванов И.",
+    "course": "Blockchain Security",
+    "grade": 85,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0xbee8b77db732650cd0fa3500b316ff3a9438889f20a62b4f355940d2c0891080",
+   "ts": 1794480857651,
+   "sig": "dac0b0eb39dc786a85ad7d949b1a5740eea9187c7f0bd8200f6ece2e657eb0d3"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "d4f57892-de1e-4936-80d4-2b30f1ddc4fc",
+   "certId": "CERT-308E94E9",
+   "payload": {
+    "certId": "CERT-308E94E9",
+    "student": "Петрова А.",
+    "course": "Blockchain Security",
+    "grade": 86,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0xc5b543fa6861a9ab0e54edf085f133cd74903433d2f12d7818d699e1c292e02f",
+   "ts": 1794480857655,
+   "sig": "59ed1aebd3fd974f38e53e02a394c0ba54195e7a8e1e0d76b0c804fd4d537346"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "fbce85f3-1e0c-4783-9b94-abbaef9b5e2f",
+   "certId": "CERT-BBBE7640",
+   "payload": {
+    "certId": "CERT-BBBE7640",
+    "student": "Ким Д.",
+    "course": "Blockchain Security",
+    "grade": 87,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0x463bd9de1f1e2ee77829635b4b8c2722b0a44e1f3deba4792369a918a2948dd6",
+   "ts": 1794480857659,
+   "sig": "09d79ff4fae065675fdc328a7e97079a5769c1334c7e95fce5d374a96741b66e"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "ba552241-0c6c-45dc-b0bf-d52777b4bfdc",
+   "certId": "CERT-B0A4F258",
+   "payload": {
+    "certId": "CERT-B0A4F258",
+    "student": "Ахметов Б.",
+    "course": "Blockchain Security",
+    "grade": 88,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0x78a3f1f48ce7fc0c762cfa5e9a0712e236faf245e43042450aba2999fd4457ce",
+   "ts": 1794480857664,
+   "sig": "ca3e88f0b6b92424a012d57d634ce99ba42e9ec10978943b3907a2aa98ad2116"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "c7219cab-ec4f-446d-93e9-e0773cf80c8b",
+   "certId": "CERT-308CAE27",
+   "payload": {
+    "certId": "CERT-308CAE27",
+    "student": "Смирнова Е.",
+    "course": "Blockchain Security",
+    "grade": 89,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0x6cd0ed181fe9cf960786ce86c0570651b17ab490d395e8fb2653185a8ef48113",
+   "ts": 1794480857668,
+   "sig": "cfd59e6c403aaf874106db7cbc60325811e3cc617aa94cc34eaa25942b154784"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "42d53db8-247c-421d-b430-972433a18166",
+   "certId": "CERT-1C3190FA",
+   "payload": {
+    "certId": "CERT-1C3190FA",
+    "student": "Иванов И.",
+    "course": "Blockchain Security",
+    "grade": 90,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0xe745d566f312be99d63b0745add397183cedb2eccb397afeac5ce459b7c76865",
+   "ts": 1794480857673,
+   "sig": "fda0ebf713bc3c86acea628bd90236d90b0de392bf327169584e26762ef8c6ff"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "ded82d16-4e97-44af-a430-358f34285b3d",
+   "certId": "CERT-9A1A243F",
+   "payload": {
+    "certId": "CERT-9A1A243F",
+    "student": "Петрова А.",
+    "course": "Blockchain Security",
+    "grade": 91,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0x76a36d0a87238acf59f5595accd331dc75c86c3159f2a78bdb91784e5ad8480b",
+   "ts": 1794480857676,
+   "sig": "2ccf20e0475ee51fc0a2b3a15ebe21f628c6bd38c271b55a8ff14d0081370dd5"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "f0adb698-8e34-40e5-b2bb-c6c40dd28391",
+   "certId": "CERT-BA8A66B1",
+   "payload": {
+    "certId": "CERT-BA8A66B1",
+    "student": "Ким Д.",
+    "course": "Blockchain Security",
+    "grade": 92,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0x770bb39558ace73b55eccee6fa386305277b6c49c6ebc8d5d0ffd9e250648bd5",
+   "ts": 1794480857681,
+   "sig": "c2619ba77297f1cdce5de42bb983ce7f72554a8667364f88fc47572d47d359ae"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "473c135c-1022-4950-a438-5aa3671af75b",
+   "certId": "CERT-A9C4FFF9",
+   "payload": {
+    "certId": "CERT-A9C4FFF9",
+    "student": "Ахметов Б.",
+    "course": "Blockchain Security",
+    "grade": 93,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0xc886d8a07be918b8164d854b58d8b42229e33df4a69eaaf99440993d19c2aa58",
+   "ts": 1794480857685,
+   "sig": "71f7f498001ac2a7197a5222e4a7e38a7534508b50052eec2efe36a5aa253c5a"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "5fbf020f-2569-41a1-adeb-6efef0d25fe1",
+   "certId": "CERT-819C7D56",
+   "payload": {
+    "certId": "CERT-819C7D56",
+    "student": "Смирнова Е.",
+    "course": "Blockchain Security",
+    "grade": 94,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0x6a866abdd163d2b314b3af22dbaab3ff0a619ceb0b12f364d976c4a36966eb06",
+   "ts": 1794480857690,
+   "sig": "cd7305f30e34a7597f79f71aa4f3e0417bad2bf6b862dfbdbaaa21bb9f5dac4c"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "cd5d91e9-1e13-43ae-a0a7-e27ae2a1346d",
+   "certId": "CERT-C9D1CF43",
+   "payload": {
+    "certId": "CERT-C9D1CF43",
+    "student": "Иванов И.",
+    "course": "Blockchain Security",
+    "grade": 95,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0x9b8805e246d2858e0aeb404d7e246880982e7fbf01b5bd6c5069c2477c085dd1",
+   "ts": 1794480857695,
+   "sig": "9333aa39bd8e95d70c09c3d2ac4e1c2dc49faf02f676ca41819f7e3292275d8a"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "88c73f08-13e1-4a48-950c-93cd60716c0f",
+   "certId": "CERT-9728A1CB",
+   "payload": {
+    "certId": "CERT-9728A1CB",
+    "student": "Петрова А.",
+    "course": "Blockchain Security",
+    "grade": 96,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0xbe52f5643eb09e1139f26fcf623a62c43b62adc2dcbf1a537a69add6d899cdb1",
+   "ts": 1794480857699,
+   "sig": "e42f797935f3ef5f7a13edffefeaf9bbca85f1e54653a95412a413c35951e631"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "7228f42b-08d5-4ff2-bae6-313268d827da",
+   "certId": "CERT-5F7666B2",
+   "payload": {
+    "certId": "CERT-5F7666B2",
+    "student": "Ким Д.",
+    "course": "Blockchain Security",
+    "grade": 97,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0xc55386fbffa81edb6a604303699211244131761b0eb3a3945b49d9392c69a2b6",
+   "ts": 1794480857703,
+   "sig": "ee85afbfbe1014192db7da4e561cc286312c1f8e26b9bbab910d73075a72ee9c"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "2c757072-c73e-4ff6-98a1-505e13c6882e",
+   "certId": "CERT-642855C7",
+   "payload": {
+    "certId": "CERT-642855C7",
+    "student": "Ахметов Б.",
+    "course": "Blockchain Security",
+    "grade": 98,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0x55fc560d408cafcda3b7c015914be8ca97c1d05b02c0d1c4fbd207c2839b68d2",
+   "ts": 1794480857708,
+   "sig": "ae8b42e741c4b984cdc1506f2c9383ef55e64f222232c182dd7cf1bdb0435ba3"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "d550e079-b1c1-433a-be82-b6f690b4cb9c",
+   "certId": "CERT-95767BA0",
+   "payload": {
+    "certId": "CERT-95767BA0",
+    "student": "Смирнова Е.",
+    "course": "Blockchain Security",
+    "grade": 99,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0x9d0fb6b7496eaca30c03d905b35d26e2842f43f084d62e755220472085930d08",
+   "ts": 1794480857712,
+   "sig": "c53394085b638d057abfd1e0da57e41501305375512943706153a1a896558b17"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "56b7ed9f-a69e-4406-8d86-223b2fdbed5c",
+   "certId": "CERT-54375B04",
+   "payload": {
+    "certId": "CERT-54375B04",
+    "student": "Иванов И.",
+    "course": "Blockchain Security",
+    "grade": 80,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0x81ceb2be59d53f408bb599ae04be2d5f42e0c421dc10a5eb95ff26b05471a182",
+   "ts": 1794480857716,
+   "sig": "c9b506565904c26cc6d6b631c97484e48d340741048836ddcca917cd5f779bbd"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "0d31e2df-f3ed-4497-b089-40f395d2869e",
+   "certId": "CERT-ED21BC97",
+   "payload": {
+    "certId": "CERT-ED21BC97",
+    "student": "Петрова А.",
+    "course": "Blockchain Security",
+    "grade": 81,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0x4b28485a256483a3c47a3ee4b0f18ee78d5d4743bfd2b98a3784a50fca1b8527",
+   "ts": 1794480857720,
+   "sig": "9f09ccf51318ad91049311a2f4175b7d216e53b677865dbab4ccddc28b2aee89"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "48f5ec5b-7f97-4822-a183-2f3120cb009f",
+   "certId": "CERT-4A6D7EBF",
+   "payload": {
+    "certId": "CERT-4A6D7EBF",
+    "student": "Ким Д.",
+    "course": "Blockchain Security",
+    "grade": 82,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0x0c413328d7405bd2dfc5b3f6068e86f8a804acc5044165edd502ff8f469c0e97",
+   "ts": 1794480857724,
+   "sig": "79b46f4819e559f9e1fbc7c25f00d30e61d4b4b2490dedd5e15ba470aab32f89"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "b0441168-6e90-43a7-a65d-08b473ac63bf",
+   "certId": "CERT-639E9427",
+   "payload": {
+    "certId": "CERT-639E9427",
+    "student": "Ахметов Б.",
+    "course": "Blockchain Security",
+    "grade": 83,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0x869977ce40043e62c7c9669205295406dd8b848ae7781415dec41f224d9b61e2",
+   "ts": 1794480857728,
+   "sig": "3e64afe0feaf1136eacc265dc4e5f36f2a68f912feed018b3515f492c935512e"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "68892735-b32d-444c-b029-4bd80fa45caa",
+   "certId": "CERT-1A5CF485",
+   "payload": {
+    "certId": "CERT-1A5CF485",
+    "student": "Смирнова Е.",
+    "course": "Blockchain Security",
+    "grade": 84,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0x215616e2041997d718f80d0626ddfac971e5e63b21402ad87ad0183ad4431f4f",
+   "ts": 1794480857733,
+   "sig": "a53fce756c0b246c7c14d9791a990e63d15a6124e6f1bd425b3a175f5c1dbde1"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "c5331119-26da-4706-8642-436177afef2e",
+   "certId": "CERT-B85FAD92",
+   "payload": {
+    "certId": "CERT-B85FAD92",
+    "student": "Иванов И.",
+    "course": "Blockchain Security",
+    "grade": 85,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0xb90675793de535fcd1fa87c45255e8aa24ad14c0ba282794ef4f14b8a205b24e",
+   "ts": 1794480857739,
+   "sig": "d293c4c36c9d8bc61436f4f4371b5de606e5eddec555d0d87b3982de9814bf83"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "8a8df1a1-901a-4a7d-88a4-1e5e8b22477b",
+   "certId": "CERT-2EB76ABE",
+   "payload": {
+    "certId": "CERT-2EB76ABE",
+    "student": "Петрова А.",
+    "course": "Blockchain Security",
+    "grade": 86,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0x970cb4c6322b4ab28b1d23b23686292fd1cab319ceec99de860b2d5bc05f622b",
+   "ts": 1794480857747,
+   "sig": "18410ca6df3b9b399e28bf8c390787bb4d8c1e87f29dec1f34bb5b0b7f4e272f"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "df873f13-423f-4b1a-83b1-a0495d88593d",
+   "certId": "CERT-9B7749A5",
+   "payload": {
+    "certId": "CERT-9B7749A5",
+    "student": "Ким Д.",
+    "course": "Blockchain Security",
+    "grade": 87,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0xe0ace4e79e0347b477004e14bf77fcf630e1833d90df0e3b78e1e1194c2e8844",
+   "ts": 1794480857752,
+   "sig": "9fe81a7c3855e68136832051ea7b3ad516ad18c5b67767246647c7f22c7e7f2e"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "9a4c554d-dcb6-41a4-a2b7-1aa11a7c55df",
+   "certId": "CERT-B2A8B8FE",
+   "payload": {
+    "certId": "CERT-B2A8B8FE",
+    "student": "Ахметов Б.",
+    "course": "Blockchain Security",
+    "grade": 88,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0x273f91054266d5759a974897dfaee8e07958e5759d0ebeef7066c7af11d0bc84",
+   "ts": 1794480857756,
+   "sig": "8a04b074b476fee8817478f5efedaf4d8690db4743e8db8e663a54c4170df5c3"
+  },
+  "state": "DONE"
+ },
+ {
+  "msg": {
+   "version": 1,
+   "type": "CERT_ISSUE_REQUEST",
+   "opId": "304ede87-5ec5-445a-9292-7092b27fdd35",
+   "certId": "CERT-9F035CFA",
+   "payload": {
+    "certId": "CERT-9F035CFA",
+    "student": "Смирнова Е.",
+    "course": "Blockchain Security",
+    "grade": 89,
+    "issuedBy": "dept.cybersecurity"
+   },
+   "hash": "0xb500bce1bcf4372ae9c54930ab28b15766020e941731e29239e183d92c07a2bf",
+   "ts": 1794480857760,
+   "sig": "8baf9e2270a51e17f1c7c8f7ecdb2a4700eb3ffbd8c925b9e1b0241a3dd7cdd0"
+  },
+  "state": "DONE"
+ }
+]

@@ -1,0 +1,161 @@
+{
+  "demo": {
+    "msg": {
+      "version": 1,
+      "type": "CERT_ISSUE_REQUEST",
+      "opId": "0c3a9502-9294-45c6-a264-d74c904b34c9",
+      "certId": "CERT-3E755691",
+      "payload": {
+        "certId": "CERT-3E755691",
+        "student": "Иванов И.",
+        "course": "Blockchain Security",
+        "grade": 80,
+        "issuedBy": "dept.cybersecurity"
+      },
+      "hash": "0xd277de561175e2e1afeb165702acf11189c753bf1fd04f75bc17e98b2e1b47dd",
+      "ts": 1794480857572,
+      "sig": "559110f2295dce48b3b58db82414228e615c2cc2c25d4846fc34533d4657efd8"
+    },
+    "res": {
+      "opId": "0c3a9502-9294-45c6-a264-d74c904b34c9",
+      "certId": "CERT-3E755691",
+      "status": "ANCHORED",
+      "txHash": "0x3c6414a2bc3e1884192dc9ff2bf7a312452b5a8f9f75a421b9b934b47c9614cb",
+      "block": 3,
+      "gas": "117693"
+    }
+  },
+  "tests": [
+    {
+      "id": "AT-1",
+      "name": "Успешный сквозной процесс",
+      "expected": "ANCHORED, verify=true, A=ISSUED",
+      "actual": "ANCHORED, verify=true, A=ISSUED",
+      "pass": true
+    },
+    {
+      "id": "AT-2",
+      "name": "Недопустимые полномочия",
+      "expected": "REJECTED + revert NOT_ISSUER",
+      "actual": "REJECTED/UNAUTHORIZED_ISSUER; chain: revert NOT_ISSUER",
+      "pass": true
+    },
+    {
+      "id": "AT-3",
+      "name": "Дублирование сообщения",
+      "expected": "повтор не создаёт транзакцию, revert DUP_OP",
+      "actual": "duplicate=true, новых блоков=0, chain: revert DUP_OP",
+      "pass": true
+    },
+    {
+      "id": "AT-4",
+      "name": "Отказ модуля Б",
+      "expected": "PENDING в outbox, нет записи в блокчейне",
+      "actual": "PENDING, outbox=PENDING, chain status=0",
+      "pass": true
+    },
+    {
+      "id": "AT-5",
+      "name": "Несоответствие данных",
+      "expected": "HASH_MISMATCH + alert STATUS_MISMATCH",
+      "actual": "REJECTED/HASH_MISMATCH; reconcile mismatches=1",
+      "pass": true
+    },
+    {
+      "id": "AT-6",
+      "name": "Восстановление после сбоя",
+      "expected": "все PENDING -> ANCHORED, 0 расхождений",
+      "actual": "ANCHORED, ANCHORED(recovered); mismatches=0",
+      "pass": true
+    }
+  ],
+  "metrics": {
+    "runs": 30,
+    "success": 30,
+    "successRate": "100.0%",
+    "mismatches": 0,
+    "p50_ms": "4.39",
+    "p95_ms": "6.24",
+    "min_ms": "3.63",
+    "max_ms": "7.89"
+  },
+  "latencies": [
+    4.5471,
+    5.6724,
+    4.3509,
+    4.5007,
+    4.4111,
+    4.1973,
+    4.3893,
+    4.7373,
+    4.3839,
+    4.3944,
+    3.8089,
+    4.3749,
+    4.0666,
+    4.9568,
+    4.8033,
+    4.353,
+    4.3431,
+    4.2241,
+    4.7689,
+    3.6279,
+    3.9836,
+    4.2321,
+    4.1865,
+    4.3893,
+    6.2443,
+    7.8877,
+    4.9709,
+    4.0071,
+    4.4591,
+    4.9305
+  ],
+  "alerts": {
+    "UNAUTHORIZED_ISSUER": 1,
+    "DUPLICATE_MESSAGE": 1,
+    "HASH_MISMATCH": 1,
+    "STATUS_MISMATCH": 1
+  },
+  "alertsList": [
+    {
+      "ts": "2026-11-12T10:54:17.587Z",
+      "severity": "HIGH",
+      "rule": "UNAUTHORIZED_ISSUER",
+      "opId": "b3d4ca29-b4bb-4a22-82db-74f343a35b79",
+      "details": {
+        "certId": "CERT-B5896A88"
+      }
+    },
+    {
+      "ts": "2026-11-12T10:54:17.605Z",
+      "severity": "HIGH",
+      "rule": "DUPLICATE_MESSAGE",
+      "opId": "2ec6f98a-c297-4e18-8d20-07cacc89e7e5",
+      "details": {
+        "certId": "CERT-A82EB46D"
+      }
+    },
+    {
+      "ts": "2026-11-12T10:54:17.611Z",
+      "severity": "HIGH",
+      "rule": "HASH_MISMATCH",
+      "opId": "86994ad2-bee3-436f-ac07-278510f318ad",
+      "details": {
+        "certId": "CERT-7A64DA0B"
+      }
+    },
+    {
+      "ts": "2026-11-12T10:54:17.616Z",
+      "severity": "HIGH",
+      "rule": "STATUS_MISMATCH",
+      "opId": "fe1f5abf-fa77-479e-990b-4f4109244f61",
+      "details": {
+        "certId": "CERT-1B1931A7",
+        "moduleA": "ISSUED",
+        "chain": "NONE",
+        "hashOk": true
+      }
+    }
+  ]
+}
